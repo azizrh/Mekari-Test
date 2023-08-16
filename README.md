@@ -70,6 +70,7 @@ To solve the problem, I use the following approach:
 6. Inner join the salary_table and the total_hours_table by using branch_id and date as the key.
 7. Calculate the monthly base salary per hour, which is salary divided by total working hours.
 8. Extract year and month from date column, and drop unnecessary column.
+
 ## Conclusion
 
 Above Approach is done by using Python and PostgreSQL, which the full script can be found in ETL_python.py and ETL_postgres.sql provided in this repository.
